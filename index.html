@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="header-wrap" data-set="0">
+                <p>Now Playing</p>
+                <div class="header-namesong">
+                    
+                </div>
+                <div class="header-img">
+                    <img  class="header-img-chance"src="" alt="">
+                </div>
+                <div class="control">
+                    <i class="fa-solid fa-rotate-left loop"></i>
+                    <i class="fa-solid fa-backward-step backSongs"></i>
+                    <div class="toggle-play">
+                        <i class="fa-solid fa-pause "></i>
+                        <i class="fa-solid fa-play "></i>
+                    </div>
+                    <i class="fa-sharp fa-solid fa-forward-step nextSongs"></i>
+                    <i class="fa-solid fa-shuffle randomsong"></i>
+                </div>
+                <div class="header-progress">
+                    <input class="progress" type="range" min="0" max="100" step="1" value="0">
+                </div>
+                <div class="header-timesong">
+                    <span class="currenttime">00:00</span>
+                    <span class="durationsong">00:00</span>
+                </div>
+            </div>
+            <audio class="audioapp"src=""></audio>
+        </div>
+        <div class="main">   
+        </div>
+      
+        
+    </div>
+    <script src="./songs.json"></script>
+    <script src="js.js"></script>
+</body>
+</html>
